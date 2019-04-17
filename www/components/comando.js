@@ -2,6 +2,7 @@
 
 function abrirInstitucional(){
   navigator.vibrate(2000);
+  location.href="institucional.html";
 }
 
 function abrirMapa(){
