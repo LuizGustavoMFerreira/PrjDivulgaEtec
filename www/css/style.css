@@ -25,6 +25,7 @@ body{
 .linkcomp{
   background-color: gainsboro;
   width: 95%;
+  min-height: 55px;
   text-align: center;
   border-radius: 5px 5px 5px 5px;
   margin-top: 20px;
@@ -45,11 +46,19 @@ label{
 }
 
 #mapa{
-  width: 95%;
+  width: 98%;
   height: 450px;
   border:0;
   border-radius: 5px 5px 5px 5px;
   
+}
+
+.rinst{
+  margin-top: 20px;
+}
+
+.rcursos{
+  margin-top: 20px;
 }
 
 .rmapa{
@@ -59,4 +68,16 @@ label{
 #carousel{
   width: 100%;
   margin-top: 20px;
+}
+
+a{
+  color: firebrick;
+}
+
+a link{
+  text-decoration: none;
+}
+
+a hover{
+  text-decoration: none;
 }
