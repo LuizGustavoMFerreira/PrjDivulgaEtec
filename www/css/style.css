@@ -11,12 +11,18 @@ body{
   align-items: center;
 }
 
+h1{
+  font-family: Helvetica;
+  color: darkred;
+}
+
 .row{
   text-align: center;
 }
 
 .imgbtn{
-  width: 100%;
+  max-width: 100%;
+  max-height: 50px;
   text-align: center;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -25,6 +31,7 @@ body{
 .linkcomp{
   background-color: gainsboro;
   width: 95%;
+  height: 50px;
   text-align: center;
   border-radius: 5px 5px 5px 5px;
   margin-top: 20px;
@@ -33,30 +40,65 @@ body{
 
 }
 
-label{
-  font-size: 25px;
-  padding-top: -50px;
-  padding-right: -50px;
-  text-align: justify;
+.lblindex{
+  font-size: 20px;
+  font-family: verdana;
+  padding-top: -50%;
+  padding-bottom: -50%;
 }
 
-.lblindex{
+.clbl{
   text-align: justify;
+  padding-top: -50%;
+  padding-bottom: -50%;
 }
 
 #mapa{
-  width: 95%;
+  width: 98%;
   height: 450px;
   border:0;
   border-radius: 5px 5px 5px 5px;
-  
+}
+
+.rinst{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rcursos{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .rmapa{
   margin-top: 20px;
+  margin-bottom: 10px;
 } 
 
 #carousel{
   width: 100%;
   margin-top: 20px;
+}
+
+a{
+  color: firebrick;
+}
+
+a link{
+  text-decoration: none;
+}
+
+a hover{
+  text-decoration: none;
+}
+
+.imginst{
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.pinst{
+  text-align: justify;
+  font-family: verdana;
+  font-size: 18px;
 }
