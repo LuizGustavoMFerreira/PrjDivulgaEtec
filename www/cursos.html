@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
+  <script src="components/bootstrap.min.js"></script>
   <script src="jquery-3.3.1.min.js"></script>
   <script src="components/comando.js"></script>
 
@@ -243,45 +244,154 @@
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/administracao.jpg" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#administracao">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/desenvolvedor.png" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#desenvolvedor">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/edificacoes.jpg" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#edificacoes">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/enfermagem.jpg" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#enfermagem">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/manutencao.jpg" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#manutencao">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
           <img src="img/turismo.jpg" class="imgcurso">
+           <button class="btn btn-success" data-toggle="modal" data-target="#turismo">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-6">
-          <button class="btn btn-success btn-block" onclick="retornar()">Retornar</button>
+          <button class="btn btn-danger btn-block" onclick="retornar()">Retornar</button>
         </div>
       </div>
-
     </div>
+
+     <!-- Modal de Administração --> 
+     <div id="administracao" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+       <div class="modal-content">
+
+        <div class="modal-header">
+        <h4 class="modal-title">Administração</h4>
+        </div>
+
+         <div class="modal-body">
+         <p>Hoje em dia, o mercado de trabalho exige indivíduos que apresentem soluções imediatas e inovadoras. Sendo assim, o papel de um administrador é diagnosticar as falhas e, prontamente, apontar uma alternativa para remediar esse cenário. Além disso, o resumo de qualificações para administração conta com planejamento e liderança de equipes.
+
+         Vale salientar que esta é uma das profissões mais versáteis, uma vez que qualquer empreendimento precisa de um administrador. Entidades, estabelecimentos comerciais, gestões públicas e organizações carecem de uma figura que mostre onde estão as suas vulnerabilidades,  visando que essas falhas não aconteçam novamente.</p>
+         </div>
+
+         <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+        <!-- Modal de Desenvolvimento de Sistema --> 
+        <div id="desenvolvedor" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+          <div class="modal-content">
+
+          <div class="modal-header">
+          <h4 class="modal-title">Desenvolvimento de Sistema</h4>
+          </div>
+
+          <div class="modal-body">
+          <p>O curso de Análise e Desenvolvimento de Sistemas forma profissionais capazes de desenvolver, analisar, projetar, implementar e atualizar sistemas de informação para diversos setores de atividades.
+
+          O estudante adquire uma base teórica sólida e uma intensa vivência prática na programação de projetos de computação.
+ 
+          Ao final do curso, se qualifica para a criação de sistemas informatizados, com conhecimento de programação dos mais diversos tipos e linguagens operacionais. Para isso, gostar de cálculos e ter raciocínio rápido e lógico são fundamentais.
+
+          Apesar de parecido com Sistemas de Informação, o curso de Análise e Desenvolvimento de Sistemas oferece ao aluno uma experiência mais intensa na resolução prática de problemas.
+
+          Com a informatização de praticamente todos os setores da economia, a presença do profissional de informática e computação tornou-se imprescindível. No mercado de trabalho, ele pode atuar em empresas do setor público e privado, como empresas de Tecnologia de Informação (TI) e de telecomunicações.
+
+          É importante que o profissional se mantenha atualizado sobre as linguagens de programação e os ambientes operacionais.</p>
+          </div>
+
+          <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+        <!-- Modal de Enfermagem --> 
+        <div id="enfermagem" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+          <div class="modal-content">
+
+          <div class="modal-header">
+          <h4 class="modal-title">Enfermagem</h4>
+          </div>
+
+          <div class="modal-body">
+          <p>O enfermeiro se dedica a promover, a manter e a restabelecer a saúde das pessoas, trabalhando em parceria com outros profissionais – médicos, nutricionistas e psicólogos, por exemplo. Este profissional é indispensável em hospitais, trabalha em clínicas e presta atendimento domiciliar. Coleta dados sobre o estado de saúde do paciente e define a conduta a ser seguida pela equipe de enfermagem.
+
+          É responsável pela higiene, alimentação, administração de remédios e pelos curativos. No campo da saúde coletiva, atua em comunidades, na prevenção de doenças ou fazendo trabalho educativo.</p>
+          </div>
+
+          <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+        <!-- Modal de Manutenção de Informática --> 
+       <div id="manutencao" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+       <div class="modal-content">
+
+        <div class="modal-header">
+        <h4 class="modal-title">Manutenção de Informática</h4>
+        </div>
+
+         <div class="modal-body">
+         <p>A informática ou Tecnologia da Informação (TI) é um componente indispensável nas organizações, na medida em que as soluções tecnológicas por ela geradas automatizam processos e são fonte de vantagens competitivas por meio da análise de cenários, apoio ao processo decisório, definição e implementação de novas estratégias organizacionais. Assim, cresce a preocupação com a coleta, o armazenamento, o processamento e a transmissão da informação.
+ 
+         O curso Técnico em Manutenção e Suporte em Informática tem por objetivo capacitar profissionais para fazer a instalação, configuração e manutenção de equipamentos de informática, a configuração e gerenciamento de redes de computadores, além de dar suporte na utilização dos mais diversos softwares e na identificação das necessidades de substituição ou atualização tecnológica.</p>
+         </div>
+
+         <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+        <!-- Modal de turismo --> 
+        <div id="turismo" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+          <div class="modal-content">
+
+          <div class="modal-header">
+          <h4 class="modal-title">Turismo Receptivo</h4>
+          </div>
+
+          <div class="modal-body">
+          <p>Hoje em dia, o mercado de trabalho exige indivíduos que apresentem soluções imediatas e inovadoras. Sendo assim, o papel de um administrador é diagnosticar as falhas e, prontamente, apontar uma alternativa para remediar esse cenário. Além disso, o resumo de qualificações para administração conta com planejamento e liderança de equipes.
+
+          Vale salientar que esta é uma das profissões mais versáteis, uma vez que qualquer empreendimento precisa de um administrador. Entidades, estabelecimentos comerciais, gestões públicas e organizações carecem de uma figura que mostre onde estão as suas vulnerabilidades, visando que essas falhas não aconteçam novamente.</p>
+          </div>
+
+          <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
 </body>
 </html>
