@@ -125,3 +125,16 @@ a hover{
 .btncurso{
   margin-bottom: 10px;
 }
+
+.pmodal{
+  text-align: justify;
+  font-size: 18px;
+  font-family: verdana;
+}
+
+.lblcurso{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 18px;
+  padding: 5px;
+}
