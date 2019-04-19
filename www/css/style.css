@@ -34,6 +34,7 @@ h1{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .linkcomp{
@@ -119,4 +120,8 @@ a hover{
   text-align: justify;
   font-family: verdana;
   font-size: 18px;
+}
+
+.btncurso{
+  margin-bottom: 10px;
 }
