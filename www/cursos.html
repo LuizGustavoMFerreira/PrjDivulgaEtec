@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="components/bootstrap.min.js"></script>
-  <script src="jquery-3.3.1.min.js"></script>
+  <script src="components/jquery-3.3.1.min.js"></script>
   <script src="components/comando.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -243,155 +243,248 @@
       -->
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Administração</label>
           <img src="img/administracao.jpg" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#administracao">Mais Curiosidades</button>
+           <button class="btn btn-success btncurso" data-toggle="modal" data-target="#administracao">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Desenvolvimento de Sistemas</label>
           <img src="img/desenvolvedor.png" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#desenvolvedor">Mais Curiosidades</button>
+           <button class="btn btn-success btncurso" data-toggle="modal" data-target="#desenvolvedor">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Edificações</label>
           <img src="img/edificacoes.jpg" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#edificacoes">Mais Curiosidades</button>
+          <button class="btn btn-success btncurso" data-toggle="modal" data-target="#edificacoes">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Enfermagem</label>
           <img src="img/enfermagem.jpg" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#enfermagem">Mais Curiosidades</button>
+           <button class="btn btn-success btncurso" data-toggle="modal" data-target="#enfermagem">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Manutenção e Suporte em Informática</label>
           <img src="img/manutencao.jpg" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#manutencao">Mais Curiosidades</button>
+           <button class="btn btn-success btncurso" data-toggle="modal" data-target="#manutencao">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row linkcurso">
         <div class="col-xs-12">
+          <label class="lblcurso">Turismo Receptivo</label>
           <img src="img/turismo.jpg" class="imgcurso">
-           <button class="btn btn-success" data-toggle="modal" data-target="#turismo">Mais Curiosidades</button>
+           <button class="btn btn-success btncurso" data-toggle="modal" data-target="#turismo">Mais Curiosidades</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-6">
-          <button class="btn btn-danger btn-block" onclick="retornar()">Retornar</button>
+          <button class="btn btn-danger btn-block btncurso" onclick="retornar()">Retornar</button>
         </div>
       </div>
-    </div>
+
+      
 
      <!-- Modal de Administração --> 
-     <div id="administracao" class="modal fade" role="dialog">
-      <div class="modal-dialog">
+     <div id="administracao" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog" role="document">
        <div class="modal-content">
 
         <div class="modal-header">
-        <h4 class="modal-title">Administração</h4>
+          <h3 class="modal-title">Administração</h3>
         </div>
 
          <div class="modal-body">
-         <p>Hoje em dia, o mercado de trabalho exige indivíduos que apresentem soluções imediatas e inovadoras. Sendo assim, o papel de um administrador é diagnosticar as falhas e, prontamente, apontar uma alternativa para remediar esse cenário. Além disso, o resumo de qualificações para administração conta com planejamento e liderança de equipes.
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="pmodal">
+                Hoje em dia, o mercado de trabalho exige indivíduos que apresentem soluções imediatas e inovadoras. Sendo assim, o papel de um administrador é diagnosticar as falhas e, prontamente, apontar uma alternativa para remediar esse cenário. Além disso, o resumo de qualificações para administração conta com planejamento e liderança de equipes.<br>
 
-         Vale salientar que esta é uma das profissões mais versáteis, uma vez que qualquer empreendimento precisa de um administrador. Entidades, estabelecimentos comerciais, gestões públicas e organizações carecem de uma figura que mostre onde estão as suas vulnerabilidades,  visando que essas falhas não aconteçam novamente.</p>
+                Vale salientar que esta é uma das profissões mais versáteis, uma vez que qualquer empreendimento precisa de um administrador. Entidades, estabelecimentos comerciais, gestões públicas e organizações carecem de uma figura que mostre onde estão as suas vulnerabilidades,  visando que essas falhas não aconteçam novamente.
+              </p>
+            </div>
+          </div>
          </div>
 
          <div class="modal-footer">
           <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
         </div>
 
+       </div>
+      </div>
+     </div>
         <!-- Modal de Desenvolvimento de Sistema --> 
-        <div id="desenvolvedor" class="modal fade" role="dialog">
-         <div class="modal-dialog">
+        <div id="desenvolvedor" class="modal fade" role="dialog" tabindex="-1">
+         <div class="modal-dialog" role="document">
           <div class="modal-content">
 
-          <div class="modal-header">
-          <h4 class="modal-title">Desenvolvimento de Sistema</h4>
+            <div class="modal-header">
+              <h3 class="modal-title">Desenvolvimento de Sistemas</h3>
+            </div>
+
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <p class="pmodal">
+                    O curso de Desenvolvimento de Sistemas forma profissionais capazes de desenvolver, analisar, projetar, implementar e atualizar sistemas de informação para diversos setores de atividades.<br>
+
+                    O estudante adquire uma base teórica sólida e uma intensa vivência prática na programação de projetos de computação.<br>
+    
+                    Ao final do curso, se qualifica para a criação de sistemas informatizados, com conhecimento de programação dos mais diversos tipos e linguagens operacionais. Para isso, gostar de cálculos e ter raciocínio rápido e lógico são fundamentais.<br>
+
+                    Apesar de parecido com Informática, o curso de Desenvolvimento de Sistemas oferece ao aluno uma experiência mais intensa na resolução prática de problemas.<br>
+
+                    Com a informatização de praticamente todos os setores da economia, a presença do profissional de informática e computação tornou-se imprescindível. No mercado de trabalho, ele pode atuar em empresas do setor público e privado, como empresas de Tecnologia de Informação (TI) e de telecomunicações.<br>
+
+                    É importante que o profissional se mantenha atualizado sobre as linguagens de programação e os ambientes operacionais.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+
           </div>
+         </div>
+        </div>
 
-          <div class="modal-body">
-          <p>O curso de Análise e Desenvolvimento de Sistemas forma profissionais capazes de desenvolver, analisar, projetar, implementar e atualizar sistemas de informação para diversos setores de atividades.
+        <!-- Modal de edificações -->
+        <div id="edificacoes" class="modal fade" role="dialog" tabindex="-1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              
+              <div class="modal-header">
+                <h3 class="modal-title">Edificações</h3>
+              </div>
 
-          O estudante adquire uma base teórica sólida e uma intensa vivência prática na programação de projetos de computação.
- 
-          Ao final do curso, se qualifica para a criação de sistemas informatizados, com conhecimento de programação dos mais diversos tipos e linguagens operacionais. Para isso, gostar de cálculos e ter raciocínio rápido e lógico são fundamentais.
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p class="pmodal">
+                      
+                      O curso técnico em Edificações tem como principal objetivo fornecer conhecimentos para que o aluno tenha habilidades para interpretar e desenhar construções, elaborar orçamentos e cronogramas, gerenciar obras prediais e escolher materiais de boa qualidade.<br>
 
-          Apesar de parecido com Sistemas de Informação, o curso de Análise e Desenvolvimento de Sistemas oferece ao aluno uma experiência mais intensa na resolução prática de problemas.
+                      O curso prepara o aluno para que ele trabalhe dentro dos procedimentos legais, sempre levando em consideração a preservação ambiental e o respeito às leis. Além disso, oferece disciplinas que permitem fazer análises de projetos utilizando ferramentas computacionais, verificando qual é a viabilidade deles.<br>
 
-          Com a informatização de praticamente todos os setores da economia, a presença do profissional de informática e computação tornou-se imprescindível. No mercado de trabalho, ele pode atuar em empresas do setor público e privado, como empresas de Tecnologia de Informação (TI) e de telecomunicações.
+                      O curso de Edificações possui disciplinas de diversas áreas do conhecimento. Matérias que envolvem desenhos estão presentes em todo o curso e é nelas que os alunos irão aprender a fazer esboços de obras e plantas.
 
-          É importante que o profissional se mantenha atualizado sobre as linguagens de programação e os ambientes operacionais.</p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+
+            </div>
           </div>
-
-          <div class="modal-footer">
-          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
         </div>
 
         <!-- Modal de Enfermagem --> 
-        <div id="enfermagem" class="modal fade" role="dialog">
-         <div class="modal-dialog">
+        <div id="enfermagem" class="modal fade" role="dialog" tabindex="-1">
+         <div class="modal-dialog" role="document">
           <div class="modal-content">
 
-          <div class="modal-header">
-          <h4 class="modal-title">Enfermagem</h4>
+            <div class="modal-header">
+              <h3 class="modal-title">Enfermagem</h3>
+            </div>
+
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <p class="pmodal">
+                    O enfermeiro se dedica a promover, a manter e a restabelecer a saúde das pessoas, trabalhando em parceria com outros profissionais – médicos, nutricionistas e psicólogos, por exemplo. Este profissional é indispensável em hospitais, trabalha em clínicas e presta atendimento domiciliar. Coleta dados sobre o estado de saúde do paciente e define a conduta a ser seguida pela equipe de enfermagem.<br>
+
+                    É responsável pela higiene, alimentação, administração de remédios e pelos curativos. No campo da saúde coletiva, atua em comunidades, na prevenção de doenças ou fazendo trabalho educativo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+
           </div>
-
-          <div class="modal-body">
-          <p>O enfermeiro se dedica a promover, a manter e a restabelecer a saúde das pessoas, trabalhando em parceria com outros profissionais – médicos, nutricionistas e psicólogos, por exemplo. Este profissional é indispensável em hospitais, trabalha em clínicas e presta atendimento domiciliar. Coleta dados sobre o estado de saúde do paciente e define a conduta a ser seguida pela equipe de enfermagem.
-
-          É responsável pela higiene, alimentação, administração de remédios e pelos curativos. No campo da saúde coletiva, atua em comunidades, na prevenção de doenças ou fazendo trabalho educativo.</p>
-          </div>
-
-          <div class="modal-footer">
-          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+         </div>
         </div>
 
         <!-- Modal de Manutenção de Informática --> 
-       <div id="manutencao" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-       <div class="modal-content">
-
-        <div class="modal-header">
-        <h4 class="modal-title">Manutenção de Informática</h4>
-        </div>
-
-         <div class="modal-body">
-         <p>A informática ou Tecnologia da Informação (TI) é um componente indispensável nas organizações, na medida em que as soluções tecnológicas por ela geradas automatizam processos e são fonte de vantagens competitivas por meio da análise de cenários, apoio ao processo decisório, definição e implementação de novas estratégias organizacionais. Assim, cresce a preocupação com a coleta, o armazenamento, o processamento e a transmissão da informação.
- 
-         O curso Técnico em Manutenção e Suporte em Informática tem por objetivo capacitar profissionais para fazer a instalação, configuração e manutenção de equipamentos de informática, a configuração e gerenciamento de redes de computadores, além de dar suporte na utilização dos mais diversos softwares e na identificação das necessidades de substituição ou atualização tecnológica.</p>
-         </div>
-
-         <div class="modal-footer">
-          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
-        </div>
-
-        <!-- Modal de turismo --> 
-        <div id="turismo" class="modal fade" role="dialog">
-         <div class="modal-dialog">
+       <div id="manutencao" class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
           <div class="modal-content">
 
-          <div class="modal-header">
-          <h4 class="modal-title">Turismo Receptivo</h4>
-          </div>
+            <div class="modal-header">
+              <h3 class="modal-title">Manutenção e Suporte em Informática</h3>
+            </div>
 
-          <div class="modal-body">
-          <p>Hoje em dia, o mercado de trabalho exige indivíduos que apresentem soluções imediatas e inovadoras. Sendo assim, o papel de um administrador é diagnosticar as falhas e, prontamente, apontar uma alternativa para remediar esse cenário. Além disso, o resumo de qualificações para administração conta com planejamento e liderança de equipes.
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <p class="pmodal">
+                    A informática ou Tecnologia da Informação (TI) é um componente indispensável nas organizações, na medida em que as soluções tecnológicas por ela geradas automatizam processos e são fonte de vantagens competitivas por meio da análise de cenários, apoio ao processo decisório, definição e implementação de novas estratégias organizacionais. Assim, cresce a preocupação com a coleta, o armazenamento, o processamento e a transmissão da informação.<br>
+    
+                    O curso Técnico em Manutenção e Suporte em Informática tem por objetivo capacitar profissionais para fazer a instalação, configuração e manutenção de equipamentos de informática, a configuração e gerenciamento de redes de computadores, além de dar suporte na utilização dos mais diversos softwares e na identificação das necessidades de substituição ou atualização tecnológica.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-          Vale salientar que esta é uma das profissões mais versáteis, uma vez que qualquer empreendimento precisa de um administrador. Entidades, estabelecimentos comerciais, gestões públicas e organizações carecem de uma figura que mostre onde estão as suas vulnerabilidades, visando que essas falhas não aconteçam novamente.</p>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+
           </div>
+        </div>
+       </div>
+
+        <!-- Modal de turismo --> 
+        <div id="turismo" class="modal fade" role="dialog" tabindex="-1">
+         <div class="modal-dialog" role="document">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h3 class="modal-title">Turismo Receptivo</h3>
+            </div>
+
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <p class="pmodal">
+                    O Técnico em Guia de Turismo é o profissional responsável por orientar e conduzir pessoas ou grupos durante traslados, passeios, visitas e viagens. Ele informa sobre aspectos socioculturais, históricos, ambientais, geográficos e outros de interesse do turista.<br>
+
+                    Está sob as responsabilidades de um Técnico em Guia de Turismo apresentar aos visitantes opções de roteiros e itinerários turísticos disponíveis e, utilizar instrumentos de comunicação, localização, técnicas de condução, de interpretação ambiental e cultural, orientar e conduzir pessoas ou grupos durante traslados, passeios, visitas, viagens, com ética profissional e respeito ao ambiente, à cultura e à legislação.<br>
+
+                    O Técnico em Guia de Turismo por ser o profissional responsável por orientar e conduzir pessoas ou grupos durante traslados, passeios, visitas e viagens se relaciona com a área Turística e Hoteleira.
+
+                  </p>
+                </div>
+              </div>
+            </div>
 
           <div class="modal-footer">
-          <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+
+          </div>
+         </div>
         </div>
 
+    </div>
 </body>
 </html>
